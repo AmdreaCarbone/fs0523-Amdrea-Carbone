@@ -1,0 +1,34 @@
+
+.logo-container{
+    text-align: center;
+}
+
+.sottotitolo{
+    text-align: center; text-decoration: aqua;
+}
+
+.sottotitolo{
+    text-decoration: aqua;
+}
+
+.barra-colo{
+    background-color: rgb(151, 133, 109);
+    border-top: 1px solid yellow;
+
+}
+
+
+
+.container{
+    width: 800px;margin: 0 auto;
+}
+
+
+.coloresally{
+    text-decoration: red;
+}
+
+.testo{
+    text-align: center;
+    margin-top: 30px;
+}
