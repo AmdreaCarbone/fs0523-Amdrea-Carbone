@@ -1,0 +1,29 @@
+
+
+
+
+.form {
+    padding: 15px;
+    margin:  15px;
+    background-color: aliceblue;
+}
+.containerhead {
+   
+    text-align: center;
+    background-color: rgb(94, 194, 194);
+    padding: 20px;
+}
+.spazionav {
+    padding:10px
+}
+.allpad{
+    padding: 10px;
+}
+
+.backimage{
+    background-image: url(../immagini/sfondo.png);
+}
+
+.containerfooter {
+    background-color: blueviolet;
+}
