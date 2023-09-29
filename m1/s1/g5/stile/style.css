@@ -1,0 +1,123 @@
+
+
+body{
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.65rem ;
+    padding: 35px;
+   text-align: center;
+
+}
+
+
+h1, h3{
+    color: #25a2c3;
+    text-align: center;
+}
+
+/*header*/
+
+.headh1{
+    font: size 2rem;;
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 28px;
+    line-height: 2rem;
+}
+
+.backlogo{
+    background-color: black;
+}
+
+
+.contenthead{
+        line-height: 2rem;
+    padding: 25px;
+    padding-top: 15px;
+}
+
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: 414px;
+} 
+
+ .partiamo{
+    
+    text-align: center;
+    font-family: 'montserrat'(bold);
+    font-size: 1.85rem;
+    font-weight: 400;
+    margin: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color:#f04c2f;
+    padding: 10px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+    
+    color: white;
+}
+
+/*header*/
+
+/*main*/
+
+.imgpc{
+text-align: center;
+padding-top: 25px;
+    border-radius: 100%;
+}
+
+.testimonianza{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.h1testi{
+    color: white;
+    padding-top: 30px
+    ;
+}
+.imgt{
+    text-align: center;
+    width: 414px
+}
+.containeraside{
+    text-align: center;
+}
+
+/*main*/
+
+
+.footer{
+    background-color: #afe0ee;
+    padding: 20px;
+    color: white;
+    text-align: center;border-top: solid;
+}
+.h1f{
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+Headings: #25a2c3 – Montserrat (bold) – interlinea 1.5
+Footer: #c8e7f0
+Footer Heading: white
+Footer link: #c8e7f0
+
+Colori sfondo
+Header: black
+Pulsante: #f04c2f – Montserrat (bold) – bold
+Testimonianze: #e22d0e
