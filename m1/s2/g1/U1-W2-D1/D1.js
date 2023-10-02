@@ -54,6 +54,8 @@ console.log(NOME)
 */
 
 console.log(4-x);
+let subtraction = 4 - x;
+console.log(subtraction) /*due modi di fare la stessa cosa/*
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -70,3 +72,4 @@ let name2 = "John"
 
 
 console.log("name1" == "name2")
+console.log("name1".tolowercase === "name2".tolowercase)
