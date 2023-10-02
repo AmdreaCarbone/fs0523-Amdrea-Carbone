@@ -23,6 +23,7 @@ REGOLE
 */
 
  let nome = "andrea"
+ console.log("andrea");
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -37,13 +38,16 @@ console.log(a+b);
 */
 
  let x = 12
+ console.log(12)
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+nome = "carbone"
+const NOME = "carbone"
+console.log(NOME)
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -58,4 +62,11 @@ console.log(4-x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+ 
+let name1 = "john"
+let name2 = "John"
 
+
+
+
+console.log("name1" == "name2")
