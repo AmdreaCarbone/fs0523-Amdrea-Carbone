@@ -39,7 +39,7 @@ console.log(crazySum(2, 2));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let b = 19
+
 function crazydiff (a, b){
     if (a < 19)
     return ris3 = (a - b);
@@ -131,7 +131,7 @@ console.log(reverseString(a));
 xy = "andrea micia achille"
 
 function upperFirst (xy){
-    
+
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
@@ -145,3 +145,9 @@ function upperFirst (xy){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const animali = ["dog", "cat", "mouse", "rabbit", "lion", "monkey",]
+
+let animale1 = animali[2];
+
+console.log(animale1);
