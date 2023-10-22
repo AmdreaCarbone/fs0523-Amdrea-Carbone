@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --colore-h5: #D20094;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+   
+  }
+
+
+/************* PAGINA WELCOME **************/
+
+
+
+#main{
+
+    height: 130vh;
+    background-image: url(../assets/images/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    padding: 35px 80px 80px 80px;
+   
+
+}
+
+#logo{
+
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+    cursor: pointer;
+   
+
+}
+
+.h4, .h5{
+
+    font-family: 'Outfit', sans-serif;
+
+}
+.h4{
+
+    font-size: 6rem;
+    max-width: 60%;
+    font-weight:300;
+    line-height: 0.8;
+    margin-bottom: 40px;
+
+}
+
+.welcome{
+
+    margin-bottom: 50px;
+    width: 600px;
+
+}
+
+span{
+
+    font-weight: 600;
+}
+
+.h5{
+
+    
+    color:var(--colore-h5);
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    
+}
+
+.p{
+
+   margin-bottom: 40px;
+   font-weight: 500;
+   max-width: 550px;
+
+
+}
+
+
+ul{
+    margin-top: 50px;
+}
+
+li {
+    line-height: 1.8;
+    margin-left: 25px;
+    font-weight: 300;
+
+}
+
+
+.container {
+
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eeeeee00;
+    border: 3px solid white;
+    
+}
+  
+
+  .container:hover input ~ .checkmark {
+    background-color: #cccccc69;
+}
+  
+
+  .container input:checked ~ .checkmark {
+    background-color: #2195f300;
+}
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+
+  .container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.button-page-1-4 {
+    background-color: #00ffff;
+    color: #0B113A;
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin-left: 400px;
+    box-shadow: 0 0 1cm rgba(0, 255, 255, 0.8);
+    border-color: black ;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+  
+}
+
+
+
+.button-page-1-4:hover{
+
+    background-color: #D20094;
+    color: white;
+    box-shadow: 0 0 1cm rgba(0, 255, 255, 0.327);
+
+}
+
+
+
+/* .timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: none;
+    border: 18px solid blue;
+    padding: 10px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+*/
+
+
+.timer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    top: 20px;
+    right: 20px;
+    margin-bottom: -60px;
+
+}
+
+.path--background {
+  fill: rgb(34, 213, 201);
+  stroke: #fff;
+  stroke-width: 0px;
+}
+
+.pulse {
+  fill: rgb(255, 74, 74) !important;
+}
+
+.path--foreground {
+  fill: #eee;
+  stroke: #eee;
+  stroke-width: 2px;
+}
+
+.label {
+  font: 60px "Outfit";
+  font-weight: 700;
+  text-anchor: middle;
+  fill: rgb(34, 213, 201);
+}
+  
+  .path--background {
+    fill: #65276D;
+    stroke: #fff;
+    stroke-width: 0px;
+    
+  }
+  
+  .pulse {
+    fill: rgb(255, 74, 74) !important;
+  }
+  
+  .path--foreground {
+    fill: #eee;
+    stroke: #eee;
+    stroke-width: 2px;
+  }
+  
+  .label {
+    font: 60px "Outfit";
+    font-weight: 900;
+    text-anchor: middle;
+    fill: white;
+  }
+
+.checkbox-plus-button{
+
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+
+/***************** PAGINA QUIZ *****************/
+
+#contenuto-pagina-quiz{
+
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+#contenuto-pagina-quiz > .h4{
+
+    font-size: 4rem;
+    line-height: 1.1;
+
+}
+
+.domanda {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+.domande-generate{
+
+    margin-bottom: 40px;
+
+}
+
+
+.risposte {
+   background: linear-gradient(#252A4F, #45195c8b) padding-box,
+               linear-gradient(180deg, rgba(255, 255, 255, 0.534), #b3028a51) border-box;
+    color: white;
+    padding: 20px 70px; 
+    border: 3px solid transparent;
+    border-radius: 40px;
+    width: 350px;
+    height: 65px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.3s;
+    
+    
+
+}
+
+.risposte:hover{
+
+    background-color: #ffffffdb;
+    color: #ffffff;
+    box-shadow: 0 0 1cm rgba(0, 255, 255, 0.327);
+
+}
+
+.risposte:active, .risposte.clicked {
+    background-color: #ffffff}
+
+/*.risposte::before {
+    
+    
+    top: -15px; 
+    left: -30px; 
+    right: -30px; 
+    bottom: 0; /
+    background: linear-gradient(to right, white, white, transparent);
+    z-index: -3;
+}
+*/
+
+
+.slash{
+
+    color: #B51389;
+
+}
+
+
+.risposte:nth-child(odd) {
+    margin-right: 25px;
+    
+}
+
+.risposte:nth-child(even) {
+    margin-left: 25px;
+}
+
+#contenuto-pagina-quiz{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.h6{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    
+}
+
+.small-font{
+
+    font-size: 3rem;
+
+}
+
+.button-plus-counter{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 500px;
+    margin-top: 50px;
+
+
+}
+
+#question-counter{
+
+
+    margin-top: 30px;
+
+}
+
+
+.prossima-domanda {
+
+    color: white;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-top: 20px;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background: #0c060a28;
+    transition: 0.3s;
+   
+
+}
+
+.prossima-domanda:hover{
+
+    background-color: #ffffffdb;
+    color: #462D5F;
+    box-shadow: 0 0 1cm rgba(0, 255, 255, 0.327);
+
+}
+
+
+.fas{
+
+    margin-left: 5px;
+
+}
+
+
+/************ PAGINA RISULTATO ****************/
+
+
+#contenuto-pagina-risultato{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+.risultato-test{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.flex {
+
+    flex: 1; 
+    height: 100px;
+    margin: 10px;
+
+}
+
+div > .results{
+    font-weight: 600;
+    font-size: 4rem;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    
+}
+
+.testo-page-3{
+
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 15px;
+    margin-bottom: 35px;
+
+
+}
+
+.testi-dentro-cerchio{
+
+    position: absolute;
+    padding-bottom: 50px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+.inner-text-circle{
+
+position: relative;
+
+
+}
+
+/* .risultato-test{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+*/
+.cerchio-container{
+    
+    height: 300px;
+    width: 1000px;
+    
+
+}
+.concentric-circle{
+
+    border-radius: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.627), 0 12px 40px 0 rgba(0, 0, 0, 0.541);
+    transition: 1.5s;
+    margin-left: 50px;
+    
+}
+
+
+.testo-certificato{
+
+    margin-top: 30px;
+
+}
+
+
+.corrette, .errate{
+
+    width: 1px;
+    padding-top: 50px;
+
+}
+
+.corrette, #percentualeGiuste {
+
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif;
+    width: 30%;
+}
+
+.errate, #percentualeSbagliate{
+
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif;
+    width: 30%;
+}
+
+.rate-us {
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid #fff;
+    cursor: pointer;
+    background: #0c060a28;
+    transition: 0.3s;
+    margin-top: 50px;
+
+}
+
+.rate-us:hover{
+
+    background-color: #ffffffdb;
+    color: #462D5F;
+    box-shadow: 0 0 1cm rgba(0, 255, 255, 0.327);}
+
+/***************** PAGINA FEEDBACK **************/
+
+#contenuto-pagina-4{
+
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.come-sta-andando{
+
+   max-width: 900px;
+   font-size: 3.5rem;
+
+}
+
+.testo-page-4{
+
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 15px;
+    max-width: 650px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.stars{
+
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+.star {
+    font-size: 60px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.367);
+    
+  }
+
+  .star:hover, .star.active {
+    color: #04FFFF ;
+  }
+
+  .form{
+
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 15px;
+    max-width: 650px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+.text-label{
+
+    margin-bottom: 50px;
+
+}
+
+.input-text-label{
+
+
+    background: none;
+    height: 50px;
+    width: 700px;
+    border: none;
+    border-bottom: 2px solid #C2128D;
+    color: white;
+    padding-left: 30px;
+
+
+}
+
+ form > .button-page-1-4{
+
+    margin-left: 0;
+    margin-top: 50px;
+
+ }
+    
+
+
+
+
+ .hidden , .hiddenTimer{
+    display: none;
+ }
