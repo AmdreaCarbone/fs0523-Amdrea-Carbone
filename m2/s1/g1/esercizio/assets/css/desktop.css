@@ -30,9 +30,38 @@
         align-items: center;
     
     }
-    
+    .divLogo{
+
+        display: flex;
+        align-items: center;
+    }
+    .tableWidth{
+        width: 70%;
+    }
+    .ass50Width{
+        width: 48%;
+        padding: 0.5em;
+    }
+    .containerVideo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .containerAside{    display: flex;
+        justify-content: center;
 
 
+    }
+    .divAside{
+        width: 33%;
+        padding: 0.5em;
+        border: 1px solid #c3c3c3;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+    }
 
 
 }

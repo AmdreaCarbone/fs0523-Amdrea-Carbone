@@ -19,7 +19,7 @@
 
 <body>
     <header class="deskAlign">
-        <div>
+        <div class="divLogo">
             <img class="logo" src="./assets/img/logo.svg" alt="logo del blog" width="250" height="60">
             <p>Epicode - Il blog dei developers</p>
         </div>
@@ -63,7 +63,7 @@
             <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
 
             <div class="alignTable">
-                <table >
+                <table class="tableWidth" >
                 <caption>Diffusione dei CSS</caption>
                 <thead>
                     <tr>
@@ -106,13 +106,13 @@
                     target="blank" title="Validatore CSS online del W3C">tool online</a> dedicato allo scopo. Una volta
                 ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come
                 loro:</p>
-
-            <iframe width="300" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM"
+        <div class="containerVideo">           
+            <iframe class="ass50Width" width="300" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
 
-            <section>
+            <section class="ass50Width">
                 <h2>Novità</h2>
                 <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
 
@@ -123,32 +123,35 @@
                     </fieldset>
                 </form>
             </section>
-
+        </div> 
         </article>
 
         <aside>
             <h2>Articoli correlati</h2>
-            <div>
-                <a href="post2.html"
-                    title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice
-                    HTML</a>
-                <p><i class="fas fa-tag"></i> Categoria: develop</p>
-                <p><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
-            </div>
-
-            <div>
-                <a href="post3.html"
-                    title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la
-                    sintassi</a>
-                <p><i class="fas fa-tag"></i> Categoria: develop</p>
-                <p><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</p>
-            </div>
-
-            <div>
-                <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella
-                    pagina</a>
-                <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
-                <p><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
+           
+           <div class="containerAside">
+                        <div class="divAside">
+                            <a href="post2.html"
+                                title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice
+                                HTML</a>
+                            <p><i class="fas fa-tag"></i> Categoria: develop</p>
+                            <p><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
+                        </div>
+                    
+                        <div class="divAside">
+                            <a href="post3.html"
+                                title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la
+                                sintassi</a>
+                            <p><i class="fas fa-tag"></i> Categoria: develop</p>
+                            <p><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</p>
+                        </div>
+                    
+                        <div class="divAside">
+                            <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella
+                                pagina</a>
+                            <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+                            <p><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
+                        </div>
             </div>
         </aside>
     </main>
