@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px ){
+
+    .boldH2{ 
+        font-weight: bold;
+    }
+    
+    .liHead{display: inline-block;}
+}

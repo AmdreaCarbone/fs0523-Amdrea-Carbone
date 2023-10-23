@@ -1,0 +1,38 @@
+@media screen and (min-width:769px ){
+
+    .boldH2{ 
+        font-weight: bold;
+    }
+    .liHead{
+        display: inline-block;
+    }
+    .alignTable{
+        display: flex;
+         justify-content: center;
+         margin-bottom: 20px;
+         margin-top: 20px;
+    }
+
+    .mainPadding{
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .deskAlign{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+
+
+
+
+}
