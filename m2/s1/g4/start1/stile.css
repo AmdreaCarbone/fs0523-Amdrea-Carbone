@@ -1,0 +1,85 @@
+
+
+
+
+:root {
+    --giallo: #fefece;
+    --verde: #ccfece;
+    --viola: #cacafa;
+    
+}
+
+.container{
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.separatore{
+    
+    display: flex;
+    width: 900px;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+     
+}
+
+.postItGeneral{
+    width: 170px;
+    height: 170px;
+    box-shadow:  12px 12px 9px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    
+    font-size: 1.5em;
+}
+
+.viola{
+
+    background-color: var(--viola);
+    rotate: -8deg;
+    transition: all 1s;
+}
+.verdi{
+
+    background-color: var(--verde);
+    rotate: 7deg;
+    transition: all 1s;
+
+}
+
+.gialli{
+
+    background-color: var(--giallo);
+    rotate: -6deg;
+    transition: all 1s;
+
+
+}
+
+
+.viola:hover{
+
+transform: rotate(368deg);
+scale: 1.25;
+
+}
+
+.gialli:hover{
+
+    transform: rotate(6deg);
+    scale: 1.25;
+}
+
+
+.verdi:hover{
+    transform: rotate(353deg);
+    scale: 1.25;
+    
+}
