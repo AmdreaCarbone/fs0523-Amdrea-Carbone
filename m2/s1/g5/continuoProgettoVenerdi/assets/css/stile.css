@@ -1,0 +1,232 @@
+
+
+.header, .scorritore, .mainTop6{
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+header{
+    background-color:#FFC017;
+}
+
+
+.headFisso{
+    width: 100vw;
+    height: 8vh;
+    background-color: #FFC017;
+    transition: background-color 300ms linear;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px black solid;
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+}                       /*altezza totale headerfisso*/
+.logo{
+    height: 8vh;
+    width: 10vw;
+}
+.listaNav{
+    
+    width: 35%;
+     margin-right: 5%; 
+}
+
+.containLogo{
+    height: 100%;
+   margin-left: 10%;
+   margin-right: 10%;
+
+}
+
+                        /*proprietà flex head fisso*/
+
+.containLogo, .logo, .listaNav ,.headFisso ,.liItem{
+    display: flex;
+}
+
+
+.liItem, .listaNav{
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+                            /*proprietà altezza hero*/
+
+.hero{
+    height: 50vh;
+}
+
+
+.heroLeft{
+    width: 60vh;
+}
+
+.heroRight{
+    width: 40vw;
+}
+
+
+.hero, .heroLeft, .heroRight, .h1Hero, .h2Hero{
+    display: flex;
+}
+
+
+
+.h1Hero{
+    display: flex;
+    font-size: 7rem;
+    margin-left: 10%;
+    align-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.h2Hero{
+    display: flex;
+    padding-right: 30%;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 10%;
+
+  }
+.bottonStart{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 7%;
+ 
+}
+.containCurio{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*flex componenti home*/
+.containerAsideFooter, .sectionMain, .scorritore{
+    display: flex;
+}
+
+
+/*misure componenti home*/
+
+.scorritore{
+    padding-top: 56px;
+}
+
+.mainTop6{
+    height: 35vh;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.sectionMain{
+    
+    width: 57vw;
+    height: 300vh;
+}
+.containerAsideFooter{
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 43vw;
+}
+
+.posizioneAside, .posizioneFooter{
+    width: 100%;
+}
+
+.containMainTrend{
+   
+    height: 100%;
+}
+
+
+.flexMain{
+    display: flex;
+    height: 50%;
+}
+
+.divisore{
+    height: 38%;
+     width: 100%;
+      display: flex;
+}
+.containFisso{
+    height: 100%;
+    width: 33%;
+}
+/*elementi dentro main */
+
+.containH2Main{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+.containTrendElement{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.numeroTrend{
+
+    margin-right: 16px;
+    width: 9%;
+    font-size: 1.9rem;
+    color: grey;
+    opacity: 40%;
+}
+
+
+.titolo{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.fonte{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+
+
+
+}
+.data{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    color: grey;
+
+
+
+}
+.containerAsideFooter{
+    position: sticky;
+    top: 8vh;
+    background-color: red;
+}
+
+
+
