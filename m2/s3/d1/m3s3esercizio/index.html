@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+
+
+
+
+{
+class User {
+    
+    constructor(n,l,a,lu){
+        this.name=n;
+        this.last=l;
+        this.age=a;
+        this.loco=lu;
+        this.mostraDettagliUser();
+
+    }
+         mostraDettagliUser(){
+            console.log(` mi chiamo ${this.name} ${this.last} e ho ${ this.age} anni, vivo a ${this.loco}`) ;
+        }
+       
+
+    }
+
+confronto(confrontato){
+if(this.age > confrontato.age){
+    console.log(`${this.name} è più grande di ${confrontato.name}`);}
+    else if(confrontato.age > this.age){console.log(`${confrontato.name} è più grande di ${this.name}`);}
+
+  
+}
+
+
+
+let uomo1 = new User("andrea", "carbone", 27, "latina");
+console.log(uomo1)
+
+let uomo2 = new User("marco", "rossi", 35, "roma");
+console.log(uomo2)
+
+
+
+}
+
+    </script>
+    
+</body>
+</html>
