@@ -31,26 +31,28 @@ class User {
        
 
     }
+            let uomo1 = new User("andrea", "carbone", 27, "latina");
+            console.log(uomo1)
 
-confronto(confrontato){
-if(this.age > confrontato.age){
-    console.log(`${this.name} è più grande di ${confrontato.name}`);}
-    else if(confrontato.age > this.age){console.log(`${confrontato.name} è più grande di ${this.name}`);}
+            let uomo2 = new User("marco", "rossi", 35, "roma");
+            console.log(uomo2)
+
+
+
+    if(uomo1.age > uomo2.age){
+    console.log(`${uomo1.name} è più grande di ${uomo2.name}`);
+}
+    else if(uomo2.age > uomo1.age){console.log(`${uomo2.name} è più grande di ${uomo1.name}`);
+}
 
   
 }
 
 
 
-let uomo1 = new User("andrea", "carbone", 27, "latina");
-console.log(uomo1)
-
-let uomo2 = new User("marco", "rossi", 35, "roma");
-console.log(uomo2)
 
 
 
-}
 
     </script>
     
