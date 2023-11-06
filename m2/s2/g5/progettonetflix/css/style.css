@@ -1,0 +1,78 @@
+
+
+:root {
+    --home-bg-color: #000;
+    --text-color: #fff;
+    --primary-color: #e40a13;
+    --secondary-color: #929292;
+  }
+  
+
+body{
+    background-color: var(--home-bg-color);
+}
+
+/*header*/
+
+
+
+.navitem{
+    color: var(--text-color);
+}
+#logo{
+    height: 55px;
+}
+.avvicinatore{
+    justify-content: flex-start;
+}
+
+.bottoneIcona{
+    height: 2rem;
+}
+
+#carousel-item{
+    width: 0.05rem;
+}
+
+/*main*/ 
+main{
+    color: var(--text-color);
+}
+.clr{
+    --bs-btn-color: #ffffff7d;
+}
+
+.iconFooter{
+    width: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.elementFooter{
+   width: 20%;
+   color: var(--secondary-color);
+}
+
+/*edit profile*/
+
+.profile{
+    color: var(--text-color);
+    font-size: 4rem;
+}
+
+.user{
+    border-top: #929292 1px solid;
+    padding-top: 10%;
+    width: 30%;
+}
+
+.imgAb{
+    width: 60%;
+}
+
+.lingua{
+    color: var(--secondary-color);
+}
+
+.linguaBia{
+    color: var(--text-color);
+}

@@ -12,7 +12,7 @@ header{
 
 .headFisso{
     width: 100vw;
-    height: 8vh;
+    height: 11vh;
     background-color: #FFC017;
     transition: background-color 300ms linear;
     justify-content: space-between;
@@ -36,7 +36,14 @@ header{
     height: 100%;
    margin-left: 10%;
    margin-right: 10%;
+   padding-top: 1.5%;
 
+
+
+}
+
+#svgTop{
+    width: 10rem;
 }
 
                         /*proprietà flex head fisso*/
@@ -56,7 +63,7 @@ header{
                             /*proprietà altezza hero*/
 
 .hero{
-    height: 50vh;
+    height: 75vh;
 }
 
 
@@ -77,18 +84,18 @@ header{
 
 .h1Hero{
     display: flex;
-    font-size: 7rem;
-    margin-left: 10%;
+    font-size: 6rem;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
     align-content: space-around;
     flex-wrap: wrap;
-  
 }
 .h2Hero{
     display: flex;
     padding-right: 30%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 5%;
     margin-left: 10%;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   }
 .bottonStart{
@@ -105,12 +112,16 @@ header{
     justify-content: space-around;
     align-items: flex-start;
     padding-left: 7%;
+    width: 100%;
+    margin-top: 10%;
  
 }
 .containCurio{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    width: 50%;
+    margin-left: 6%;
 }
 
 /*flex componenti home*/
@@ -199,9 +210,11 @@ header{
     height: 60%;
     width: 100%;
     display: flex;
-    font-size: 2rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-left: 10px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: -1.5rem
 }
 .fonte{
     height: 25%;
