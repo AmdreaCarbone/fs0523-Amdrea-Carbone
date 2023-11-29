@@ -1,0 +1,24 @@
+<table class="table">
+<thead>
+  <tr>
+    <th>#</th>
+    <th>gusto</th>
+    <th>prezzo</th>
+    <th>active</th>
+  </tr>
+</thead>
+  <tbody>
+    <tr *ngFor="let p of pizze">
+      <td>{{p.id}}</td>
+      <td>{{p.gusto}}</td>
+      <td>{{p.prezzo}}</td>
+      <td>{{p.active}}</td>
+      <td>
+        <button class="btn btn-warning">Modifica</button>
+      </td>
+      <td>
+        <button class="btn btn-danger">elimina</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
