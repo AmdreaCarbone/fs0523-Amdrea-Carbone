@@ -1,0 +1,11 @@
+<form>
+  <input type="text" placeholder="todo"[(ngModel)]="newTodo.title" name="todo" id="">
+  <select name="completed"  [(ngModel)]="newTodo.completed" class="form-control">
+    <option value="1">fatto</option>
+    <option value="0">da fare</option>
+  </select>
+
+  <button (click)="save()"> Aggiungi cosa da FARE!</button>
+
+
+</form>

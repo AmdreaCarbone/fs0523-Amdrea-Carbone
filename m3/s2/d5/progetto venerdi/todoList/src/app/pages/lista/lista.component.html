@@ -1,0 +1,20 @@
+
+
+
+<table *ngIf="todos.length">
+  <tr>
+    <th>#</th>
+    <th>Da fare</th>
+    <th>completato : si/no</th>
+  </tr>
+
+  <tr *ngFor="let t of todos">
+  <td>{{t.id}}</td>
+  <td>{{t.title}}</td>
+  <td>{{t.completed}}</td>
+  <td>
+    <button (click)="delete(t.id)">elimina</button>
+    <button >modifica</button>
+  </td>
+</tr>
+</table>
