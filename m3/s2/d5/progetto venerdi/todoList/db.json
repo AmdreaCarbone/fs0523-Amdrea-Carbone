@@ -1,9 +1,3 @@
 {
-  "toDos": [
-    {
-      "completed": true,
-      "title": "prendere la spesa",
-      "id": 1
-    }
-  ]
+  "toDos": []
 }

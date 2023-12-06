@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Todo } from './models/todo';
+import { ITodo } from './models/itodo';
 
 @Injectable({
   providedIn: 'root'
@@ -25,8 +26,9 @@ export class TodoService {
    }
 
 
-   getCompletato(completed: boolean): Promise<Todo> {
-    return fetch ( this.apiUrl + (completed ? 'paginaA' : 'paginaB')).then(res => res.json())}
+
+
+
 
    create(Todo:Partial<Todo>):Promise<Todo>{
     return fetch(this.apiUrl,{
