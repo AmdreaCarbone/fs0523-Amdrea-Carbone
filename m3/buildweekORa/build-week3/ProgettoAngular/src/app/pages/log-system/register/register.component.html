@@ -1,0 +1,51 @@
+<div class="container userTab">
+  <form [formGroup]="form">
+    <div>
+      <label for="name">Name:</label>
+      <input class="form-control" type="text" id="name" formControlName="name" >
+    </div>
+    <div *ngIf="isValidAndTouched('name')" class="alert alert-warning">Enter your name</div>
+    <div>
+      <label for="surname">Surname:</label>
+      <input class="form-control" type="text" id="surname" formControlName="surname">
+    </div>
+    <div *ngIf="isValidAndTouched('surname')" class="alert alert-warning">Enter your username</div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input class="form-control" type="text" id="email" formControlName="email">
+    </div>
+    <div *ngIf="isValidAndTouched('email') && !emailExist" class="alert alert-warning">This isn't a valid email</div>
+    <div *ngIf="emailExist" class="alert alert-warning">This email already exist!</div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input class="form-control" type="password" id="password" formControlName="password">
+    </div>
+    <div *ngIf="isValidAndTouched('password')" class="alert alert-warning">
+      <p>Not a valid password. It must contains:</p>
+      <ul>
+        <li>At least 8 characters</li>
+        <li>A number</li>
+        <li>An uppercase letter</li>
+        <li>A lowercase letter</li>
+        <li>A special character</li>
+      </ul>
+    </div>
+
+    <div>
+      <label for="confirmPassword">Confirm Password:</label>
+      <input class="form-control" type="password" id="confirmPassword" formControlName="confirmPassword">
+    </div>
+    <div *ngIf="isValidAndTouched('confirmPassword')" class="alert alert-warning">
+      {{getCustomMessage('confirmPassword')}}
+    </div>
+    <p>Are you signed?<a routerLink="/LogSystem/login">Log in!</a></p>
+
+    <button [disabled]="!form.valid" class="mt-1 p-1" (click)="submit()">Sign up</button>
+  </form>
+  <div *ngIf="loading">Loading...</div>
+</div>
+
+
+

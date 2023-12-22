@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="filter-container">
+      <app-name-filter (beerNameEvent)="searchBeersByName($event)"></app-name-filter>
+  </div>
+
+  <div class="card-container" *ngIf="beers.length > 0">
+      <div *ngFor="let beer of beers" >
+          <app-beer-card [beer]="beer"></app-beer-card>
+        <app-add-to-shop [beer]="beer"></app-add-to-shop>
+      </div>
+
+  </div>
+
+  <div class="paginator-container">
+      <app-paginator
+          [currentPage]="currentPage"
+          (pageChange)="onPageChange($event)"
+      ></app-paginator>
+  </div>
+</div>

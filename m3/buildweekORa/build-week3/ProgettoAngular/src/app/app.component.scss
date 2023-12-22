@@ -1,0 +1,17 @@
+main {
+  padding: 2rem 0 ;
+  background-image: url(../assets/img/sfondoultimo.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  overflow-y: scroll;
+  width: 100vw;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
